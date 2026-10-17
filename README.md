@@ -19,7 +19,7 @@ pip install -e .
 | Beckmann | [Beckmann Transport Models: From Autonomous Flows to One-Step Maps](https://arxiv.org/abs/2608.01692) | |
 | Flux Matching | [Generative Modeling with Flux Matching](https://arxiv.org/abs/2605.07319) | |
 | W-Flow | [One-Step Generative Modeling via Wasserstein Gradient Flows](https://arxiv.org/abs/2605.11755) | |
-| DMD2 | [Improved Distribution Matching Distillation for Fast Image Synthesis](https://arxiv.org/abs/2405.14867) | |
+| DMD2 | [Improved Distribution Matching Distillation for Fast Image Synthesis](https://arxiv.org/abs/2405.14867) | `Generator`, `dmd_loss` · [`dmd.ipynb`](samples/dmd.ipynb) |
 | Drifting | [Generative Modeling via Drifting](https://arxiv.org/abs/2602.04770) | |
 | FMM | [Flow Map Matching with Stochastic Interpolants: A Mathematical Framework for Consistency Models](https://arxiv.org/abs/2406.07507) | |
 | Flow-map SD | [How to Build a Consistency Model: Learning Flow Maps via Self-Distillation](https://arxiv.org/abs/2505.18825) | |
