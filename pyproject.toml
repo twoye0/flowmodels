@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flowmodels"
+version = "0.1.0"
+description = "PyTorch implementations of flow-based generative models for toy data."
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "numpy",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
