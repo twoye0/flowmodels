@@ -22,7 +22,7 @@ pip install -e .
 | DMD2 | [Improved Distribution Matching Distillation for Fast Image Synthesis](https://arxiv.org/abs/2405.14867) | `Generator`, `dmd_loss` · [`dmd.ipynb`](samples/dmd.ipynb) |
 | Drifting | [Generative Modeling via Drifting](https://arxiv.org/abs/2602.04770) | |
 | FMM | [Flow Map Matching with Stochastic Interpolants: A Mathematical Framework for Consistency Models](https://arxiv.org/abs/2406.07507) | `FlowMap`, `flow_map_loss` · [`fmm.ipynb`](samples/fmm.ipynb) |
-| Flow-map SD | [How to Build a Consistency Model: Learning Flow Maps via Self-Distillation](https://arxiv.org/abs/2505.18825) | |
+| Flow-map SD | [How to Build a Consistency Model: Learning Flow Maps via Self-Distillation](https://arxiv.org/abs/2505.18825) | `ConsistencyFlowMap`, `consistency_loss` · [`consistency.ipynb`](samples/consistency.ipynb) |
 | Score Matching | [Estimation of Non-Normalized Statistical Models by Score Matching](https://jmlr.org/papers/v6/hyvarinen05a.html) | `ScoreNetwork`, `score_matching_loss` · [`score.ipynb`](samples/score.ipynb) |
 | Metric FM | [Metric Flow Matching for Smooth Interpolations on the Data Manifold](https://arxiv.org/abs/2405.14780) | |
 | Platonic | [The Platonic Representation Hypothesis](https://arxiv.org/abs/2405.07987) | |
